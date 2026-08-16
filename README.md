@@ -27,7 +27,7 @@ const is block-scoped, must be initialized, and can’t be reassigned though obj
 
 ---
 
-
+### 4) How does destructuring assignment work in ES6?
 
 **Ans:** Destructuring lets you grab values from arrays or objects into variables easily. For example: `const [a, b] = [10, 20]` or `const {name, age} = person;`
 
