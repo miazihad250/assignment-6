@@ -1,63 +1,38 @@
-# Green Earth 🌱
+# Assignment 6
 
-Green Earth is a responsive front-end web application built to promote a global tree plantation initiative. The platform allows users to explore different tree categories, view detailed plant cards fetched dynamically, and engage with a campaign designed to restore natural habitats and combat climate change.
-
-**Live Demo:** [View Green Earth Here](https://shareare-reham.github.io/green-earth/)
-
----
-
-## 🚀 Features
-
-*   **Dynamic Data Integration:** Fetches and displays tree categories and individual plant data dynamically from an external REST API.
-*   **Interactive Filtering:** Users can click on specific categories to filter the displayed plants in real-time.
-*   **Responsive UI/UX:** A fully mobile-responsive layout ensuring a seamless browsing experience across desktop, tablet, and mobile devices.
-*   **Modern Styling:** Utilizes a clean, nature-inspired color palette built with utility-first CSS and pre-built UI components.
-*   **Donation Simulation:** Includes a styled form for users to simulate donating and selecting the number of trees they wish to plant.
+- **GitHub Repository Link:** https://github.com/miazihad250/assignment-6
+- **Live Link:** https://miazihad250.github.io/assignment-6/
 
 ---
 
-## 🛠️ Technologies Used
+### 1) What is the difference between var, let, and const?
 
-*   **HTML5:** Semantic markup for page structure.
-*   **JavaScript (ES6+):** Vanilla JavaScript used for DOM manipulation, event handling, and asynchronous API requests (`fetch`).
-*   **Tailwind CSS (v4):** Integrated via CDN for rapid, responsive, and utility-based styling.
-*   **DaisyUI (v5):** A Tailwind CSS component library used for elegant, pre-built elements like buttons, navbars, and cards.
-*   **Google Fonts:** Specifically utilizing the 'Roboto' font family for clean typography.
+**Ans:** var is the old way—function-scoped and can be redeclared or updated.  
+let is block-scoped and can be updated but not redeclared.  
+const is block-scoped, must be initialized, and can’t be reassigned though object contents can still change.
 
 ---
 
-## ⚙️ Getting Started
+### 2) What is the difference between map(), forEach(), and filter()?
 
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-
-You only need a modern web browser and a code editor (like VS Code) to view and edit the project. No package manager or build step is required since the CSS frameworks are loaded via CDN.
-
-### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/shareare-reham/green-earth.git](https://github.com/shareare-reham/green-earth.git)
-    ```
-2.  **Navigate to the project directory:**
-    ```bash
-    cd green-earth
-    ```
-3.  **Run the project:**
-    Open the `index.html` file in your preferred web browser. Alternatively, use an extension like "Live Server" in VS Code for a better development experience.
+**Ans:** .forEach() runs a function on each array item but returns nothing (undefined).  
+.map() transforms each item and returns a new array, leaving the original untouched.  
+.filter() returns a new array containing only items that pass a given test.
 
 ---
 
-## 📂 Project Structure
+### 3) What are arrow functions in ES6?
 
-*   `index.html`: The main entry point of the application containing the structural layout.
-*   `script.js`: Contains all the logic for fetching API data, rendering categories, rendering plant cards, and handling active button states.
-*   `assets/`: Directory for static images (e.g., hero illustrations, about section imagery).
+**Ans:** Arrow functions are a short, neat way to write functions using =>. It gives us the power to write short code than traditional function method.
 
 ---
 
-## 👤 Author
 
-**Shahreare Riham**
-*   GitHub: [@shareare-reham](https://github.com/shareare-reham)
+
+**Ans:** Destructuring lets you grab values from arrays or objects into variables easily. For example: `const [a, b] = [10, 20]` or `const {name, age} = person;`
+
+---
+
+### 5) Explain template literals in ES6. How are they different from string concatenation?
+
+**Ans:** Template literals use backticks and let us embed expressions like `${...}`. They’re easier to read and write, support multi-line text, short and cleaner than using `+` to join strings.
